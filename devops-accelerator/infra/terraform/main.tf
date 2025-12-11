@@ -2,7 +2,7 @@ terraform {
   required_version = ">= 1.5.0"
 
   backend "s3" {
-    bucket         = "Chandra123-accelerator-platform-tf-state"
+    bucket         = "chandra123-accelerator-platform-tf-state"
     key            = "global/devops-accelerator/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "Devops-accelerator-tf-locker"
