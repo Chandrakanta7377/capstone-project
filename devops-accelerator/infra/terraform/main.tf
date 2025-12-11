@@ -5,7 +5,7 @@ terraform {
     bucket         = "Chandra123-accelerator-platform-tf-state"
     key            = "global/devops-accelerator/terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "Chandra123-accelerator-tf-locker"
+    dynamodb_table = "Devops-accelerator-tf-locker"
     encrypt        = true
   }
 }
